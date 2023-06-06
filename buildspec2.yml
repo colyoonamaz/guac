@@ -1,0 +1,6 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+     - go mod download && make test && ./internal/testing/e2e/e2e

@@ -9,4 +9,4 @@ Actions:
         - WorkflowSource
     Configuration:
       Steps:
-        - Run: go mod download
+        - Run: go mod download && make test
